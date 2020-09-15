@@ -1,0 +1,802 @@
+@charset "utf-8";
+/* CSS Document */
+
+.flutter_vid {
+	cursor: pointer;	
+}
+
+
+#more4, #more5, #more6 {
+	display: none;
+	line-height:22pt;
+	padding-right:25%;
+	font-size:16px;
+	color:#87868A;
+}
+
+#drip-salon, #drip-email, #drip-Website, #drip-message {
+	width: 100%;
+	border: 2px solid #eeeeee;
+	padding: 10px 24px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #f8c1157;
+	line-height: 1.6;
+	letter-spacing: .2px;
+	-webkit-transition: all 350ms ease;
+	transition: all 350ms ease;
+	margin-bottom: 30px;
+}
+
+#drip-message {
+	padding-bottom: 20%;
+}
+
+#drip-salon:focus, #drip-email:focus, #drip-Website:focus, #drip-message:focus {
+	border: 2px solid #8c1157;	
+}
+
+#botaoDrip {
+	font-size: 14px;
+	display: inline-block;
+	letter-spacing: .5px;
+	font-family: "Muli", sans-serif;
+	font-weight: light;
+	box-sizing: border-box;
+	line-height: 1;
+	padding: 20px 38px;
+	text-decoration: none;
+	border: none;
+	background-color: #8c1157;
+	color: #ffffff;
+	position: relative;
+	transition: all 350ms ease;	
+	
+}
+
+
+
+#botaoDireito, #botaoEsquerdo {
+	background-color:transparent; 
+	color:#8c1157; 
+	border:solid thin #8c1157;	
+}
+
+#serviceText, #serviceTextRight {
+	color:#000000;	
+}
+
+#margensServicos {
+	
+	border-color:#87868A;
+	border-style:solid;
+	border-width:1px;
+
+}
+
+#esconderBotoes {
+	visibility:hidden;
+}
+
+
+#g-recaptcha-response {
+    display: block !important;
+    position: absolute;
+    margin: -78px 0 0 0 !important;
+    width: 302px !important;
+    height: 76px !important;
+    z-index: -999999;
+    opacity: 0;
+}
+
+#servicosHomepage {
+	
+font-size: 16px; 
+color:#222;
+
+}
+
+#testeBefore:before {
+	content: none;
+	
+}
+
+
+#tituloMarketing {
+	margin-left: 70%;	
+}
+
+#serviceColor {
+	color: #000000;	
+}
+
+#serviceRight {
+	color: #000000;	
+}
+
+/*code for the basics page */
+
+#tituloDireito {
+	margin-left:20%;	
+}
+
+#tituloEsquerdo {
+	margin-right:20%;	
+}
+
+#botaoFooter {
+	box-shadow: 0px 0px 0px rgba(53, 53, 54, 255);	
+	transition-duration: 0.7s;
+	font-size:12px;
+}
+
+#botaoCentro {
+	box-shadow: 0px 0px 0px rgba(53, 53, 0, 54);	
+	transition-duration: 0.7s;
+	font-size:12px;
+	height:35px;
+}
+
+
+
+
+#botaoFooter:hover, #botaoCentro:hover #botaoMenu:hover{
+	box-shadow: 0px 0px 0px 16px rgba(53, 53, 54, 0);
+}
+
+
+
+@media (min-width: 500px) and (max-width: 1900px) {
+
+/*estilos para as banners na pagina principal */
+
+#socialOverdose {
+	margin-left:-10%;
+}
+
+
+#getPhysicalTitle {
+	margin-left: 5%;	
+}
+
+#controlTitle {
+	margin-left: 5%;	
+}
+
+#dispararEstrelas {
+	margin-left: 5%;	
+}
+
+
+#donutComprimidos {
+	margin-top: 10%;
+	width: 90%;
+}
+
+#donutSocial {
+	width:90%;	
+}
+
+#donutMaior{
+	margin-bottom: 10%;
+	
+}
+
+#estrelaNatal {
+	margin-bottom: 15%;
+	width:20%;
+}
+	
+#camaraDiana {
+	margin-top:5%;	
+	width:20%;
+}
+
+#telefoneVerde {
+	margin-left:10%;
+	width:90%;	
+}
+
+#notaMusical {
+	margin-top: 7%;
+	width:90%;	
+}
+
+#casseteTapes {
+	margin-bottom: 10%;
+	width:65%;	
+	
+}
+
+#polaroidGif {
+	width:15%;
+	margin-left:5%;
+		
+}
+
+#xboxPolaroid {
+	margin-right: 10%;	
+}
+
+#reportTexto {
+	margin-left:15%;	
+	
+}
+
+#landingPageHeight {
+	height: 20px; 
+}
+
+#serviceRight {
+	margin-left: 40%;	
+}
+
+#serviceTitle {
+	background-color:#6e2149; 
+	text-align:center; 
+	font-size:22px; 
+	width:25%; 
+	margin-left:5%; 
+	margin-bottom:-1%; 
+	position:relative; 
+	z-index: 5;	
+	
+}
+
+#serviceBox {
+	width:1000px; 
+	height:250px; 
+	background-color:#f2f3f4;	
+}
+
+#serviceText {
+	text-align:justify; 
+	font-size:16px; 
+	width:80%; 
+	margin-left:5%; 
+	padding-top:2%;
+	
+}
+
+#serviceTitleRight {
+	background-color:#6e2149; 
+	text-align:center; 
+	font-size:22px; 
+	width:25%; 
+	margin-left:140%; 
+	margin-bottom:-1%; 
+	position:relative; 
+	z-index: 5;	
+	
+}
+
+#serviceBoxRight {
+	width:1000px; 
+	height:250px; 
+	background-color:#f2f3f4;
+	margin-left:10%;	
+}
+
+#serviceTextRight {
+	text-align:right; 
+	font-size:16px; 
+	width:80%; 
+	margin-left:15%; 
+	padding-top:2%;
+	
+}
+
+}
+
+@media (min-width: 1900px) {
+
+#getPhysicalTitle{
+	width:1900px;
+	margin-left: -10%;	
+}
+
+#polaroidGif {
+	margin-top:-15%	
+}
+
+#socialOverdose {
+	margin-left:-9%;
+}
+
+#dispararEstrelas {
+	margin-left:5%;	
+}
+
+#estrelaNatal {
+	margin-left: -10%;
+}
+
+
+#xboxPolaroid {
+	margin-bottom: -10%;	
+}
+
+#landingPageHeight {
+	height: 938px; 
+}
+
+#serviceRight {
+	margin-left: 60%;	
+}
+
+#serviceTitle {
+	background-color:#6e2149; 
+	text-align:center; 
+	font-size:22px; 
+	width:25%; 
+	margin-left:5%; 
+	margin-bottom:-1%; 
+	position:relative; 
+	z-index: 5;	
+	
+}
+
+#serviceBox {
+	width:1200px; 
+	height:250px; 
+	background-color:#f2f3f4;	
+}
+
+#serviceText {
+	text-align:justify; 
+	font-size:16px; 
+	width:80%; 
+	margin-left:5%; 
+	padding-top:2%;
+	
+}
+
+#serviceTitleRight {
+	background-color:#6e2149; 
+	text-align:center; 
+	font-size:22px; 
+	width:25%; 
+	margin-left:220%; 
+	margin-bottom:-1%; 
+	position:relative; 
+	z-index: 5;	
+	
+}
+
+#serviceBoxRight {
+	width:1200px; 
+	height:250px; 
+	background-color:#f2f3f4;
+	margin-left:50%;	
+}
+
+#serviceTextRight {
+	text-align:right; 
+	font-size:16px; 
+	width:80%; 
+	margin-left:15%; 
+	padding-top:2%;
+	
+}
+
+}
+
+
+@media (max-width: 500px) {
+
+#imagemRosaDesktop {
+	display:none;	
+}
+	
+#botaoFooter {
+	width: 100% !important;	
+}
+
+#botaoMenu {
+	width: 50% !important;
+	box-shadow: 0px 0px 0px rgba(53, 53, 54, 255);	
+	transition-duration: 0.7s;
+	font-size:12px;
+	height:45px;
+	margin-left: 10%;
+}
+
+#servicosAlinhados {
+	text-align: center;	
+}
+
+#getPhysicalTitle{
+	width:350px;	
+}
+
+
+#containerTexto {
+	margin-left:0;
+	text-align:center;	
+}
+
+#tituloMarketing {
+	margin-left: 0;	
+}
+
+#tituloDireito {
+	margin-left:0;
+	font-size:32px;	
+}
+
+#tituloEsquerdo {
+	margin-right:0;
+	font-size:32px;	
+}
+
+#polaroidGif {
+	margin-top: -15%;
+	
+}
+
+#swiperGrande {
+	display:none;	
+}
+
+#swiper3-pagination-bullets {
+	margin-top: -75%;	
+}
+
+#tituloFooter {
+	
+	margin-top:25%;
+}
+
+#verMaisBotao {
+	margin-bottom: -20%;	
+}
+
+#espacoParaFooter {
+	margin-bottom: 20%;	
+}
+
+#parallaxReport {
+	display:none;	
+}
+
+#conteudoParallax {
+	margin-top:20%;	
+}
+
+/*codigo para 3 textos no index */
+
+#icon3TextosDireito {
+	display:none;	
+}
+
+#icon3TextosEsquerdo {
+	display:none;		
+}
+
+#more, #more2, #more3 {
+	display: none;
+}
+
+#myBtn, #myBtn2, #myBtn3{
+	margin-left:43%;
+	margin-top: 5%;
+	background-image:url(../img/index/arrowButtonDown.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	
+	background-color:transparent;
+	border-color:transparent;
+	height:40px;
+	width:40px;
+}
+
+/*estilo para os case studies */
+
+#botaoCaseStudy {
+	height: 25%;
+	margin-left: 25%;
+	margin-top: -60%;	
+}
+
+/*paginas dos blogs */
+
+#paginasBlog {
+	
+	margin-top: 20%;
+	
+}
+
+#descerConteudo {
+	margin-top: 20%;	
+}
+
+#testeBefore {
+	display:none;	
+}
+
+#CTAMovel {
+	display:none;	
+}
+
+#precosIndividuais {
+	margin-top:75%;	
+}
+
+#iconPrecos {
+	margin-top:15%;	
+}
+
+
+#espacoPacotes {
+	margin-top:45%;	
+	
+}
+
+#espacoPacotes2 {
+	margin-top:120%;	
+	
+}
+
+#fundoPricing {
+	background-image:url(../img/pricing/backgroundelement-pricing-page.png);
+	background-size:cover;	
+}
+
+#advertisingIndent {
+	margin-top:50%;	
+}
+
+#espacoHomepage {
+	margin-top:30%;	
+}
+
+#verTestemonial {
+	font-size: 13px;	
+	
+}
+
+#textoCompetidores {
+	text-align:center;	
+}
+
+#elementoEsconderMovel {
+	display:none;	
+}
+
+#sliderMovel {
+	margin-bottom: 150%;	
+}
+
+
+/* Codigo para paginas de elementos */
+
+#serviceTitle {
+	background-color:#6e2149; 
+	text-align:center; 
+	font-size:22px; 
+	margin-top: 20%;
+	margin-left:5%;
+	width:50%;
+	margin-bottom:-1%; 
+	position:relative; 
+	z-index: 5;	
+	
+}
+
+#serviceBox {
+	width:300px; 
+	background-color:#f2f3f4;	
+}
+
+#serviceText {
+	text-align:justify; 
+	font-size:16px;  
+	margin-left:2%; 
+	margin-right:2%;
+	padding-top:2%;
+	
+}
+
+#serviceTitleRight {
+	background-color:#6e2149; 
+	text-align:center; 
+	font-size:22px; 
+	margin-top: 20%;
+	margin-left:45%;
+	width:50%;
+	margin-bottom:-1%; 
+	position:relative; 
+	z-index: 5;	
+	
+}
+
+#serviceBoxRight {
+	width:300px; 
+	background-color:#f2f3f4;	
+}
+
+#serviceTextRight {
+	text-align:justify; 
+	font-size:16px;  
+	margin-left:2%; 
+	margin-right:2%;
+	padding-top:2%;
+	
+}
+
+#botaoDireito {
+	margin-left: 50%;	
+}
+}
+
+@media (min-width: 500px) {
+
+#imagemLandingPageMovel {
+	display:none;	
+}
+
+
+#landingPageConteudoCima {
+	margin-top:-20%;	
+}
+
+#imagemRosaMovel {
+	display:none;	
+}
+
+#servicosAlinhados {
+	text-align: center;	
+}
+
+#swiperPequeno {
+	display:none;	
+}
+
+#containerTexto {
+	padding-left:15%;
+	text-align:right;	
+}
+
+#conteudoParallax {
+	display:none;	
+}
+
+#dots, #dots2, #dots3 {
+	display:none;	
+}
+
+#myBtn, #myBtn2, #myBtn3 {
+	display:none;	
+}
+
+#servicosHomepage {
+	
+margin-top: -35%;
+
+}
+
+#verServicos {
+	width:100%; 
+	margin-left: -50%; 
+	margin-top: -20%;	
+}
+
+/*estilo para os 3 textos no index */ 
+
+
+#icon3TextosDireito {
+	position:absolute;
+	margin-left: 60%;
+}
+
+#icon3TextosEsquerdo {
+	position:absolute;
+	margin-left: 20%;	
+}
+
+#servicos3Direito {
+	margin-right: 55%;
+	width:100%; 
+}
+
+#servicos3Esquerdo {
+	margin-left: 45%;
+	width:100%;	
+}
+
+#content3Direito {
+	width:120%;
+	
+}
+
+#content3Esquerdo {
+	width: 130%;
+	
+}
+
+#tituloMeio3 {
+	margin-left: 20%;	
+}
+
+#estilo3Elementos {
+	height: 120%;
+	background-image:url(../img/index/elmentosFundo2.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;	
+}
+
+/*estilo para os case studies */
+
+#botaoCaseStudy {
+	margin-top: 80%;
+	margin-left: 25%;	
+}
+
+/*estilos para blogs */
+
+#paginasBlog {
+	
+	margin-top: 10%;
+	
+}
+
+#descerConteudo {
+	margin-top: 4%;	
+}
+
+#botaoMenu {
+	box-shadow: 0px 0px 0px rgba(53, 53, 54, 255);	
+	transition-duration: 0.7s;
+	font-size:12px;
+	height:35px;
+}
+
+#reportMovel {
+	display:none !important;	
+}
+
+#precosIndividuais {
+	margin-top: 15%;
+}
+
+#espacoPacotes {
+	margin-top:10%;	
+	
+}
+
+#espacoPacotes2 {
+	margin-top:20%;	
+	
+}
+
+#fundoPricing {
+	background-image:url(../img/pricing/backgroundelement-pricing-page.png);
+	background-size:cover;	
+}
+
+#advertisingIndent {
+	margin-top:10%;	
+}
+
+#espacoHomepage {
+	margin-top:5%;	
+}
+
+#textoPrecos {
+	left:40;	
+}
+
+#tituloFooter {	
+	margin-top:10%;
+}
+
+#elementoEsconderDesktop {
+	display:none;	
+}
+
+#sliderMovel {
+	display:none;	
+}
+
+}
